@@ -181,14 +181,14 @@ ul, li {
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
-@media (min-width: 800px) {
+@media (min-width: 400px) {
   .container {
     width: 85%;
     padding: 0; }
 }
 
 /* For devices larger than 550px */
-@media (min-width: 850px) {
+@media (min-width: 550px) {
   .container {
     width: 80%; }
   .column,
@@ -387,10 +387,10 @@ hr {
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Larger than mobile */
-@media (min-width: 800px) {}
+@media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 850px) {}
+@media (min-width: 550px) {}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
